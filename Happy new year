@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year 2025!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Audio element to play Happy New Year song on page load -->
+    <audio id="audio-player" autoplay>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+        <h1 id="year-heading">🎉 Happy New Year <span id="year">2024</span>!</h1>
+        <p id="message">Goodbye 2024, welcome 2025!</p>
+
+        <!-- User Input Form -->
+        <form id="user-form">
+            <label for="username">Enter your name:</label>
+            <input type="text" id="username" name="username" placeholder="Your Name" required>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="greeting" class="greeting">
+            <p>Happy New Year, <span id="user-name">User</span>!</p>
+        </div>
+
+        <div id="lyrics">
+            <p>🎶 "No more champagne, and the fireworks are through..."</p>
+            <p>🎶 "Here we are, me and you, feeling lost and feeling blue..."</p>
+            <p>🎶 "It's the time of the year to say, Happy New Year..."</p>
+            <p>🎶 "We wish you a Merry Christmas, and a Happy New Year!"</p>
+        </div>
+
+        <p class="created-by">
